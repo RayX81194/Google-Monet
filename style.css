@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+    }
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#d1cd76;
+    color:#4A473E;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.img1
+{
+    border-radius:50%;
+}
+.gmail
+{
+    position: absolute;
+    top:23px;
+    right:230px;
+    font-size: 13px;
+}
+
+.images
+{   
+    font-size:13px;
+    position: absolute;
+    top:23px;
+    right:172px;
+    
+}
+.lab
+{   
+    position: absolute;
+    top:18px;
+    right:122px;
+    opacity: 0.89;
+}
+.box
+{
+    position: absolute;
+    top:18px;
+    right:70px;
+    opacity: 0.89;
+}
+.profile
+{
+    position:absolute;
+    top:14px;
+    right:18px;
+}
+a
+{
+    color:#4A473E;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+.logo
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 150px;
+color:rgb(253, 230, 148);
+text-shadow: 0px 0px 1px rgb(237, 134, 134);
+position: absolute;
+left: 50%;
+top: 31%;
+transform: translate(-50%, -50%);
+z-index:1;
+}
+
+.bar
+{
+    border-radius:50px;
+    border:none;
+    border-color:rgb(253, 230, 148);
+    width:550px;
+    height:45px;
+    background-color:rgb(253, 230, 148);
+    box-shadow: 0px 0px 4px rgb(253, 230, 148);
+    transition: linear 0.1s;
+}
+
+.bar:hover
+{
+    box-shadow: 0px 0px 10px rgb(223, 182, 33);
+    
+}
+
+.barpos
+{
+position: absolute;
+left: 50%;
+top: 45%;
+transform: translate(-50%, -50%);
+}
+
+.search
+{
+    position: absolute;
+    top:10px;
+    right:513px;
+    opacity: 0.8;
+}
+
+.mic
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.camera
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn {
+    background-color:rgb(253, 230, 148);
+    border-radius: 50px;
+    border-style: none;
+    box-sizing: border-box;
+    color:#4A473E;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    transition: linear 0.1s;
+    font-family: "Product Sans Regular";
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 4px rgb(223, 182, 33);
+}
+  
+@media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+}
+
+.buttons
+{
+    position: absolute;
+    top:55%;
+    right:23%;
+    transform: translate(-50%, -50%);
+    padding:30px;
+
+}
+
+.shape3
+{
+    position: absolute;
+    top:-50px;
+    left:-50px;
+}
+
+
+.shape1
+{
+    position: absolute;
+    top:-100px;
+    right:-30px;
+}
+.shape4
+{
+    position: absolute;
+    bottom:1px;
+    left:-100px;
+}
+.shape2
+{
+    position: absolute;
+    bottom:1px;
+    right:-150px;
+}
+
+.footer
+{
+    border-radius:10px;
+    border:1px solid;
+    border-color:rgb(253, 230, 148);
+    width:1500px;
+    height:80px;
+    background-color:rgb(253, 230, 148);
+    box-shadow: 0px 0px 4px black;
+    position: absolute;
+    bottom:15px;
+    left:18px;
+}
+
+.leftfoot
+{
+    position: absolute;
+    top:30px;
+    left:15px; 
+}
+.rightfoot
+{
+    position: absolute;
+    top:30px;
+    right:15px;
+}
+
+.icon 
+{
+    position: absolute;
+    top:18px;
+    left:50px;
+    z-index:1;
+    transition: ease-in 0.1s;
+}
+
+.icon:hover
+{
+    position: absolute;
+    top:16px;
+    left:50px;
+    z-index:1;
+}
+
+.input
+{
+    position: absolute;
+    top:8px;
+    left:50px;
+    width:76%;
+    height:65%;
+    border:none;
+    background-color:rgb(253, 230, 148);
+    outline:none;
+    font-size: 16px;
+}
+
